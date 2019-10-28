@@ -20,3 +20,16 @@ $(document).ready(function(){
         $("#mycarousel").carousel('cycle');
     });*/
 });
+//login modal
+$(document).ready(function(){
+    $("#loginBtn").click(function(){
+      $("#loginModal").modal();
+    });
+  });
+
+  //reserve modal
+  $(document).ready(function(){
+    $("#reserveBtnM").click(function(){
+      $("#reservationModal").modal();
+    });
+  });
